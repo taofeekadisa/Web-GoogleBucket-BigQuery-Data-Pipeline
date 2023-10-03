@@ -1,5 +1,5 @@
-# Data-Pipeline-Web-GCS-BQ
-![Add a heading](https://github.com/krissemmy/Data-Pipeline-Web-GCS-BQ/assets/119800888/2228cec5-7887-4660-b2cc-e30e6f481645)
+# Web-GoogleBucket-BigQuery-Data-Pipeline
+![Add a heading](https://github.com/taofeekadisa/Web-GoogleBucket-BigQuery-Data-Pipeline/assets/119800888/2228cec5-7887-4660-b2cc-e30e6f481645)
 
 ## Overview
 • An Extract and Load pipeline that gets NYC Green taxi data from DataTalks GitHub Repo,
@@ -86,7 +86,7 @@ mv <path/to/your/service-account-authkeys>.json ~/.google/credentials/google_cre
    Below is an example
    
 ```
-mv  /home/krissemmy/Downloads/alt-data-engr-1dfdbf9f8dbf.json ~/.google/credentials/google_credentials.json
+mv  /home/taofeek/Downloads/alt-data-engr-1dfdbf9f8dbf.json ~/.google/credentials/google_credentials.json
 ```
 4. Install gcloud on system : open new terminal and run    (follow this link to install gcloud-sdk : https://cloud.google.com/sdk/docs/install-sdk)
 
@@ -103,7 +103,7 @@ mv  /home/krissemmy/Downloads/alt-data-engr-1dfdbf9f8dbf.json ~/.google/credenti
   Below is an example
 
   ```bash
-  export GOOGLE_APPLICATION_CREDENTIALS = "/home/krissemmy/.google/credentials/google_credentials.json"
+  export GOOGLE_APPLICATION_CREDENTIALS = "/home/taofeek/.google/credentials/google_credentials.json"
   ```
 6. Run gcloud auth application-default login
 7. Redirect to the website and authenticate local environment with the cloud environment
@@ -128,7 +128,7 @@ perform the following on your Google Cloud Platform
     ```
     ~/.google/credentials/:/.google/credentials:ro
     ```
-    ![image](https://github.com/krissemmy/Data-Pipeline-Web-GCS-BQ/assets/119800888/bc2396d1-b9d5-4d6d-806c-ccc9253d9c89)
+    ![image](https://github.com/taofeekadisa/Web-GoogleBucket-BigQuery-Data-Pipeline/assets/119800888/bc2396d1-b9d5-4d6d-806c-ccc9253d9c89)
 
 
 3. build airflow container image with:
